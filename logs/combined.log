@@ -25,3 +25,9 @@
 {"level":"info","message":"User created with email: test1@xxx.com","service":"acquisitions-api"}
 {"level":"info","message":"User registered successfully: test1@xxx.com","service":"acquisitions-api"}
 {"level":"info","message":"::1 - - [15/Sep/2025:19:28:49 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 98 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [16/Sep/2025:09:01:51 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated successfully: test@xxx.com","service":"acquisitions-api"}
+{"level":"info","message":"User signed in successfully: test@xxx.com","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [16/Sep/2025:09:17:36 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 109 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"User signed out successfully","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [16/Sep/2025:09:18:08 +0000] \"POST /api/auth/sign-out HTTP/1.1\" 200 42 \"-\" \"HTTPie\"","service":"acquisitions-api"}

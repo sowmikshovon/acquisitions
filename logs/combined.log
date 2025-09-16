@@ -94,3 +94,390 @@
 {"level":"info","message":"::1 - - [16/Sep/2025:10:41:47 +0000] \"GET /health HTTP/1.1\" 403 53 \"-\" \"HTTPie\"","service":"acquisitions-api"}
 {"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"acquisitions-api","userAgent":"HTTPie"}
 {"level":"info","message":"::1 - - [16/Sep/2025:10:41:47 +0000] \"GET /health HTTP/1.1\" 403 53 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [16/Sep/2025:14:47:03 +0000] \"GET /health HTTP/1.1\" 200 79 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:16:34 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:16:39 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:16:45 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:16:50 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:16:55 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:17:00 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:17:05 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::ffff:172.18.0.1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"HTTPie"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [16/Sep/2025:15:17:06 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:17:10 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:17:41 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:18:11 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:18:41 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:19:11 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:19:41 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:20:11 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:20:41 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:21:12 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:21:42 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:22:12 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:22:42 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:23:12 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:23:42 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:24:13 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:24:43 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:25:13 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:25:43 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:26:13 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:26:43 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:27:13 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:27:44 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:28:14 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:28:44 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:29:14 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:29:44 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:30:15 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:30:45 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:31:15 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:31:45 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:32:15 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:32:45 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:33:16 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:33:46 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:34:16 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:34:46 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:35:16 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:35:47 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:36:17 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:36:47 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:37:17 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:37:47 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:38:17 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:38:47 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:39:18 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:39:48 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:40:18 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:40:48 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:41:18 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:41:48 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:42:18 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:42:49 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:43:19 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:43:49 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:44:19 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:44:49 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:45:19 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:45:49 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:46:19 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:46:50 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:47:20 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:47:50 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:48:20 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:48:50 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:49:20 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:49:50 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:50:21 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:50:51 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:51:21 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:51:51 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:52:21 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:52:51 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:53:22 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:53:52 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:54:22 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:54:52 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:55:22 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:55:52 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:56:22 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:56:53 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:57:23 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:57:53 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:58:23 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:58:53 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:59:23 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:15:59:53 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:00:24 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:00:54 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:01:24 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::ffff:172.18.0.1","level":"warn","message":"Bot request blocked","path":"/","service":"acquisitions-api","userAgent":"HTTPie"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [16/Sep/2025:16:01:48 +0000] \"GET / HTTP/1.1\" 403 68 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:01:54 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:02:24 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::ffff:172.18.0.1","level":"warn","message":"Bot request blocked","path":"/","service":"acquisitions-api","userAgent":"HTTPie"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [16/Sep/2025:16:02:50 +0000] \"GET / HTTP/1.1\" 403 68 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:02:54 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:03:25 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:03:55 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:04:25 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:04:55 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:05:25 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:05:55 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:06:25 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:06:56 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:07:26 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:07:56 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:08:26 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:08:56 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"Hello from Acquisitions","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [16/Sep/2025:16:09:00 +0000] \"GET / HTTP/1.1\" 200 23 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:09:26 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::ffff:172.18.0.1","level":"warn","message":"Bot request blocked","path":"/api/sign-up","service":"acquisitions-api","userAgent":"HTTPie"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [16/Sep/2025:16:09:49 +0000] \"GET /api/sign-up HTTP/1.1\" 403 68 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:09:57 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:10:27 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:10:57 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:11:27 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:11:57 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::ffff:172.18.0.1","level":"warn","message":"Bot request blocked","path":"/api/auth/sign-up","service":"acquisitions-api","userAgent":"HTTPie"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [16/Sep/2025:16:12:09 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 403 68 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:12:27 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:12:58 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:13:28 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:13:58 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:14:28 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:14:58 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:15:28 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:15:59 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:16:29 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:16:59 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:17:29 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::ffff:172.18.0.1","level":"warn","message":"Bot request blocked","path":"/","service":"acquisitions-api","userAgent":"HTTPie"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [16/Sep/2025:16:17:48 +0000] \"GET / HTTP/1.1\" 403 68 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"ip":"::ffff:172.18.0.1","level":"warn","message":"Bot request blocked","path":"/","service":"acquisitions-api","userAgent":"HTTPie"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [16/Sep/2025:16:17:50 +0000] \"GET / HTTP/1.1\" 403 68 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:17:59 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:18:30 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:19:00 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:19:30 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:20:00 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:20:30 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"Hello from Acquisitions","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:21:48 +0000] \"GET / HTTP/1.1\" 200 23 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"User created with email: test2@xxx.com","service":"acquisitions-api"}
+{"level":"info","message":"User registered successfully: test2@xxx.com","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:22:12 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 97 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:24:41 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:24:46 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::ffff:172.18.0.1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.5.0"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [16/Sep/2025:16:24:49 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.5.0\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:24:52 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:24:57 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:25:02 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:25:07 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:25:12 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::ffff:172.18.0.1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [16/Sep/2025:16:25:15 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:25:17 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:25:48 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:25:54 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:25:59 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:26:04 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::ffff:172.18.0.1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.5.0"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [16/Sep/2025:16:26:06 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.5.0\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:26:09 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:26:14 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:26:19 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:26:24 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:26:30 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:26:54 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [16/Sep/2025:16:27:06 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"curl/8.5.0\"","service":"acquisitions-api"}
+{"level":"error","message":"Error creating user: Error: Failed query: insert into \"users\" (\"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\") values (default, $1, $2, $3, $4, default, default) returning \"id\", \"name\", \"email\", \"role\", \"created_at\"\nparams: Test User,test@example.com,$2b$10$rCbN9iObQuJn9q8je/k27uyFUzrG.tCL2R8ETCwDywfhUkbuFYtlG,user","service":"acquisitions-api"}
+{"level":"error","message":"Sign up error Error: Failed query: insert into \"users\" (\"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\") values (default, $1, $2, $3, $4, default, default) returning \"id\", \"name\", \"email\", \"role\", \"created_at\"\nparams: Test User,test@example.com,$2b$10$rCbN9iObQuJn9q8je/k27uyFUzrG.tCL2R8ETCwDywfhUkbuFYtlG,user","service":"acquisitions-api","stack":"Error: Error: Failed query: insert into \"users\" (\"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\") values (default, $1, $2, $3, $4, default, default) returning \"id\", \"name\", \"email\", \"role\", \"created_at\"\nparams: Test User,test@example.com,$2b$10$rCbN9iObQuJn9q8je/k27uyFUzrG.tCL2R8ETCwDywfhUkbuFYtlG,user\n    at createUser (file:///app/src/services/auth.service.js:50:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async signup (file:///app/src/controllers/auth.controller.js:20:18)"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [16/Sep/2025:16:27:20 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 500 848 \"-\" \"curl/8.5.0\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:27:24 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:27:55 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:28:25 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:28:55 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:29:26 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:29:56 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:30:26 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:30:57 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:31:27 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:31:57 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:32:36 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"error","message":"Error creating user: Error: Failed query: insert into \"users\" (\"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\") values (default, $1, $2, $3, $4, default, default) returning \"id\", \"name\", \"email\", \"role\", \"created_at\"\nparams: test,test2@xxx.com,$2b$10$9hc7jKcIWu.199tNE.VHnuddvm.PD.rkVuNSKljvdblRPIiIK7Hdm,user","service":"acquisitions-api"}
+{"level":"error","message":"Sign up error Error: Failed query: insert into \"users\" (\"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\") values (default, $1, $2, $3, $4, default, default) returning \"id\", \"name\", \"email\", \"role\", \"created_at\"\nparams: test,test2@xxx.com,$2b$10$9hc7jKcIWu.199tNE.VHnuddvm.PD.rkVuNSKljvdblRPIiIK7Hdm,user","service":"acquisitions-api","stack":"Error: Error: Failed query: insert into \"users\" (\"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\") values (default, $1, $2, $3, $4, default, default) returning \"id\", \"name\", \"email\", \"role\", \"created_at\"\nparams: test,test2@xxx.com,$2b$10$9hc7jKcIWu.199tNE.VHnuddvm.PD.rkVuNSKljvdblRPIiIK7Hdm,user\n    at createUser (file:///app/src/services/auth.service.js:50:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async signup (file:///app/src/controllers/auth.controller.js:20:18)"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [16/Sep/2025:16:32:49 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 500 840 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:33:07 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:33:37 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:34:07 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:34:38 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:35:08 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:35:38 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"error","message":"Error creating user: Error: Failed query: insert into \"users\" (\"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\") values (default, $1, $2, $3, $4, default, default) returning \"id\", \"name\", \"email\", \"role\", \"created_at\"\nparams: test,test2@xxx.com,$2b$10$ZCYi/FvMnL3jOtYzbif6xu3ixlK4TlCMFf6OCAiFu8te5wF263LAC,user","service":"acquisitions-api"}
+{"level":"error","message":"Sign up error Error: Failed query: insert into \"users\" (\"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\") values (default, $1, $2, $3, $4, default, default) returning \"id\", \"name\", \"email\", \"role\", \"created_at\"\nparams: test,test2@xxx.com,$2b$10$ZCYi/FvMnL3jOtYzbif6xu3ixlK4TlCMFf6OCAiFu8te5wF263LAC,user","service":"acquisitions-api","stack":"Error: Error: Failed query: insert into \"users\" (\"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\") values (default, $1, $2, $3, $4, default, default) returning \"id\", \"name\", \"email\", \"role\", \"created_at\"\nparams: test,test2@xxx.com,$2b$10$ZCYi/FvMnL3jOtYzbif6xu3ixlK4TlCMFf6OCAiFu8te5wF263LAC,user\n    at createUser (file:///app/src/services/auth.service.js:50:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async signup (file:///app/src/controllers/auth.controller.js:20:18)"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [16/Sep/2025:16:36:11 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 500 840 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:36:39 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:37:09 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:37:39 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:38:10 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:38:40 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:39:10 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:39:40 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:40:11 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"error","message":"Error creating user: Error: Failed query: insert into \"users\" (\"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\") values (default, $1, $2, $3, $4, default, default) returning \"id\", \"name\", \"email\", \"role\", \"created_at\"\nparams: test,test2@xxx.com,$2b$10$2UCS.loR7CWCGo0iuG7pzuI4/C9Q/cTgblHA.FlO5ytj7dH2pYXx6,user","service":"acquisitions-api"}
+{"level":"error","message":"Sign up error Error: Failed query: insert into \"users\" (\"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\") values (default, $1, $2, $3, $4, default, default) returning \"id\", \"name\", \"email\", \"role\", \"created_at\"\nparams: test,test2@xxx.com,$2b$10$2UCS.loR7CWCGo0iuG7pzuI4/C9Q/cTgblHA.FlO5ytj7dH2pYXx6,user","service":"acquisitions-api","stack":"Error: Error: Failed query: insert into \"users\" (\"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\") values (default, $1, $2, $3, $4, default, default) returning \"id\", \"name\", \"email\", \"role\", \"created_at\"\nparams: test,test2@xxx.com,$2b$10$2UCS.loR7CWCGo0iuG7pzuI4/C9Q/cTgblHA.FlO5ytj7dH2pYXx6,user\n    at createUser (file:///app/src/services/auth.service.js:50:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async signup (file:///app/src/controllers/auth.controller.js:20:18)"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [16/Sep/2025:16:40:18 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 500 840 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:40:41 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:41:11 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:41:42 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"User created with email: test3@xxx.com","service":"acquisitions-api"}
+{"level":"info","message":"User registered successfully: test3@xxx.com","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [16/Sep/2025:16:42:07 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 98 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:42:12 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:42:42 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:43:13 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:43:43 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:44:13 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:44:44 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:45:14 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:45:44 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:46:15 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:46:45 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:47:15 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:47:46 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}

@@ -77,6 +77,7 @@ export const authenticateUser = async ({ email, password }) => {
       name: existingUser.name,
       email: existingUser.email,
       role: existingUser.role,
+      created_at: existingUser.created_at,
     };
   } catch (e) {
     logger.error(`Error authenticating user: ${e}`);

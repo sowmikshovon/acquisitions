@@ -5,8 +5,13 @@ const aj = arcjet({
   rules: [
     shield({ mode: 'LIVE' }),
     detectBot({
-      mode: 'LIVE',
-      allow: ['CATEGORY:SEARCH_ENGINE', 'CATEGORY:PREVIEW'],
+      mode: 'DRY_RUN', // Allow all bots in development, just log them
+      //mode: 'LIVE',  // Enforce bot blocking in production
+      allow: [
+        'CATEGORY:SEARCH_ENGINE',
+        'CATEGORY:PREVIEW',
+        'httpie', // Allow HTTPie for development testing
+      ],
     }),
     slidingWindow({
       mode: 'LIVE',

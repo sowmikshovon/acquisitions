@@ -1,0 +1,8 @@
+nohup: ignoring input
+
+> acquisitions@1.0.0 dev
+> node --watch src/index.js
+
+✦Aj WARN Arcjet will use 127.0.0.1 when missing public IP address in development mode
+Listening on http://localhost:3000
+Completed running 'src/index.js'

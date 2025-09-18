@@ -481,3 +481,284 @@
 {"level":"info","message":"::1 - - [16/Sep/2025:16:46:45 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
 {"level":"info","message":"::1 - - [16/Sep/2025:16:47:15 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
 {"level":"info","message":"::1 - - [16/Sep/2025:16:47:46 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:48:16 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:48:47 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:49:17 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [16/Sep/2025:16:49:47 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:09:27 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [18/Sep/2025:18:09:42 +0000] \"POST / HTTP/1.1\" 404 140 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"Hello from Acquisitions","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [18/Sep/2025:18:09:47 +0000] \"GET / HTTP/1.1\" 200 23 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:09:58 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:10:28 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"Getting users ...","service":"acquisitions-api"}
+{"level":"error","message":"Error getting users Your \"id\" field references a column \"users\".\"id\", but the table \"users\" is not part of the query! Did you forget to join it?","service":"acquisitions-api","stack":"Error: Your \"id\" field references a column \"users\".\"id\", but the table \"users\" is not part of the query! Did you forget to join it?\n    at PgDialect.buildSelectQuery (file:///app/node_modules/drizzle-orm/pg-core/dialect.js:251:15)\n    at PgSelectBase.getSQL (file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:728:25)\n    at file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:771:66\n    at Object.startActiveSpan (file:///app/node_modules/drizzle-orm/tracing.js:8:14)\n    at PgSelectBase._prepare (file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:769:19)\n    at file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:797:19\n    at Object.startActiveSpan (file:///app/node_modules/drizzle-orm/tracing.js:8:14)\n    at PgSelectBase.execute (file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:796:19)\n    at PgSelectBase.then (file:///app/node_modules/drizzle-orm/query-promise.js:21:17)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+{"level":"error","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [18/Sep/2025:18:10:46 +0000] \"GET /api/users HTTP/1.1\" 500 346 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:10:58 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:11:28 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [18/Sep/2025:18:11:58 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:12:01 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:12:31 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"Getting users ...","service":"acquisitions-api"}
+{"level":"error","message":"Error getting users Your \"id\" field references a column \"users\".\"id\", but the table \"users\" is not part of the query! Did you forget to join it?","service":"acquisitions-api","stack":"Error: Your \"id\" field references a column \"users\".\"id\", but the table \"users\" is not part of the query! Did you forget to join it?\n    at PgDialect.buildSelectQuery (file:///app/node_modules/drizzle-orm/pg-core/dialect.js:251:15)\n    at PgSelectBase.getSQL (file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:728:25)\n    at file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:771:66\n    at Object.startActiveSpan (file:///app/node_modules/drizzle-orm/tracing.js:8:14)\n    at PgSelectBase._prepare (file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:769:19)\n    at file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:797:19\n    at Object.startActiveSpan (file:///app/node_modules/drizzle-orm/tracing.js:8:14)\n    at PgSelectBase.execute (file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:796:19)\n    at PgSelectBase.then (file:///app/node_modules/drizzle-orm/query-promise.js:21:17)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+{"level":"error","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [18/Sep/2025:18:12:45 +0000] \"GET /api/users HTTP/1.1\" 500 346 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"Getting users ...","service":"acquisitions-api"}
+{"level":"error","message":"Error getting users Your \"id\" field references a column \"users\".\"id\", but the table \"users\" is not part of the query! Did you forget to join it?","service":"acquisitions-api","stack":"Error: Your \"id\" field references a column \"users\".\"id\", but the table \"users\" is not part of the query! Did you forget to join it?\n    at PgDialect.buildSelectQuery (file:///app/node_modules/drizzle-orm/pg-core/dialect.js:251:15)\n    at PgSelectBase.getSQL (file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:728:25)\n    at file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:771:66\n    at Object.startActiveSpan (file:///app/node_modules/drizzle-orm/tracing.js:8:14)\n    at PgSelectBase._prepare (file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:769:19)\n    at file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:797:19\n    at Object.startActiveSpan (file:///app/node_modules/drizzle-orm/tracing.js:8:14)\n    at PgSelectBase.execute (file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:796:19)\n    at PgSelectBase.then (file:///app/node_modules/drizzle-orm/query-promise.js:21:17)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+{"level":"error","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [18/Sep/2025:18:12:57 +0000] \"GET /api/users HTTP/1.1\" 500 346 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:13:01 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:13:32 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:14:02 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"Getting users ...","service":"acquisitions-api"}
+{"level":"error","message":"Error getting users Your \"id\" field references a column \"users\".\"id\", but the table \"users\" is not part of the query! Did you forget to join it?","service":"acquisitions-api","stack":"Error: Your \"id\" field references a column \"users\".\"id\", but the table \"users\" is not part of the query! Did you forget to join it?\n    at PgDialect.buildSelectQuery (file:///app/node_modules/drizzle-orm/pg-core/dialect.js:251:15)\n    at PgSelectBase.getSQL (file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:728:25)\n    at file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:771:66\n    at Object.startActiveSpan (file:///app/node_modules/drizzle-orm/tracing.js:8:14)\n    at PgSelectBase._prepare (file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:769:19)\n    at file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:797:19\n    at Object.startActiveSpan (file:///app/node_modules/drizzle-orm/tracing.js:8:14)\n    at PgSelectBase.execute (file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:796:19)\n    at PgSelectBase.then (file:///app/node_modules/drizzle-orm/query-promise.js:21:17)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+{"level":"error","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [18/Sep/2025:18:14:16 +0000] \"GET /api/users HTTP/1.1\" 500 1355 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:14:32 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:15:02 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:15:33 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:16:03 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"Getting users ...","service":"acquisitions-api"}
+{"level":"error","message":"Error getting users Your \"id\" field references a column \"user\".\"id\", but the table \"user\" is not part of the query! Did you forget to join it?","service":"acquisitions-api","stack":"Error: Your \"id\" field references a column \"user\".\"id\", but the table \"user\" is not part of the query! Did you forget to join it?\n    at PgDialect.buildSelectQuery (file:///app/node_modules/drizzle-orm/pg-core/dialect.js:251:15)\n    at PgSelectBase.getSQL (file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:728:25)\n    at file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:771:66\n    at Object.startActiveSpan (file:///app/node_modules/drizzle-orm/tracing.js:8:14)\n    at PgSelectBase._prepare (file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:769:19)\n    at file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:797:19\n    at Object.startActiveSpan (file:///app/node_modules/drizzle-orm/tracing.js:8:14)\n    at PgSelectBase.execute (file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:796:19)\n    at PgSelectBase.then (file:///app/node_modules/drizzle-orm/query-promise.js:21:17)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+{"level":"error","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [18/Sep/2025:18:16:05 +0000] \"GET /api/users HTTP/1.1\" 500 1353 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:16:33 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:17:04 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:17:34 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:18:04 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:18:35 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"Getting users ...","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [18/Sep/2025:18:19:10 +0000] \"GET /api/users HTTP/1.1\" 200 486 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:19:35 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:20:05 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:20:36 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:21:06 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:21:36 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:22:06 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:22:37 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:23:07 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:23:37 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:24:08 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:24:38 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:25:08 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:25:38 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:26:09 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:26:39 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:27:09 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:27:39 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:29:40 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:30:10 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:30:41 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:31:11 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:31:41 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:32:12 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:32:42 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:33:12 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:33:43 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:34:13 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:34:43 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:35:13 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:35:44 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:36:14 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:36:44 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:37:14 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:37:45 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:38:15 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:38:45 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:39:15 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:39:46 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:40:16 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:40:46 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:41:16 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:41:47 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:42:17 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:42:47 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:43:17 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:43:48 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:44:18 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:44:48 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:45:18 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:45:49 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:46:19 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:46:49 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:47:19 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:47:50 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:48:20 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:48:50 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:49:20 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:49:51 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:50:21 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:50:51 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:51:22 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [18/Sep/2025:18:51:56 +0000] \"GET /api/users HTTP/1.1\" 401 70 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:52:22 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:52:53 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:53:23 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:53:53 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:54:24 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [18/Sep/2025:18:54:52 +0000] \"GET /api/users/2 HTTP/1.1\" 401 70 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:54:54 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:55:24 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [18/Sep/2025:18:55:42 +0000] \"POST /api/sign-in HTTP/1.1\" 404 151 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:18:55:55 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"cause":{"name":"NeonDbError","sourceError":{}},"level":"error","message":"Error getting users Failed query: select \"id\", \"email\", \"name\", \"role\", \"created_at\", \"updated_at\" from \"users\"\nparams: ","params":[],"query":"select \"id\", \"email\", \"name\", \"role\", \"created_at\", \"updated_at\" from \"users\"","service":"acquisitions-api","stack":"Error: Failed query: select \"id\", \"email\", \"name\", \"role\", \"created_at\", \"updated_at\" from \"users\"\nparams: \n    at NeonHttpPreparedQuery.queryWithCache (file:///home/sowmik/code/acquisitions/node_modules/drizzle-orm/pg-core/session.js:41:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async NeonHttpPreparedQuery.execute (file:///home/sowmik/code/acquisitions/node_modules/drizzle-orm/neon-http/session.js:45:20)\n    at async getAllUsers (file:///home/sowmik/code/acquisitions/src/services/users.service.js:8:12)\n    at async file:///home/sowmik/code/acquisitions/[eval1]:8:17"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:05:40 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:06:10 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:06:41 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [18/Sep/2025:19:06:49 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"curl/8.5.0\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [18/Sep/2025:19:06:57 +0000] \"GET /api/users HTTP/1.1\" 401 70 \"-\" \"curl/8.5.0\"","service":"acquisitions-api"}
+{"level":"info","message":"User created with email: test@example.com","service":"acquisitions-api"}
+{"level":"info","message":"User registered successfully: test@example.com","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [18/Sep/2025:19:07:06 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 105 \"-\" \"curl/8.5.0\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:07:11 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::ffff:172.18.0.1","level":"warn","message":"Rate limit exceeded","path":"/api/users","service":"acquisitions-api","userAgent":"curl/8.5.0"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [18/Sep/2025:19:07:12 +0000] \"GET /api/users HTTP/1.1\" 403 53 \"-\" \"curl/8.5.0\"","service":"acquisitions-api"}
+{"ip":"::ffff:172.18.0.1","level":"warn","message":"Rate limit exceeded","path":"/api/users","service":"acquisitions-api","userAgent":"curl/8.5.0"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [18/Sep/2025:19:07:28 +0000] \"GET /api/users HTTP/1.1\" 403 53 \"-\" \"curl/8.5.0\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:07:41 +0000] \"GET /health HTTP/1.1\" 403 53 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:08:11 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"Hello from Acquisitions","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [18/Sep/2025:19:08:32 +0000] \"GET / HTTP/1.1\" 200 23 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated: test@example.com (ID: 4)","service":"acquisitions-api"}
+{"level":"info","message":"Getting users ...","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [18/Sep/2025:19:08:40 +0000] \"GET /api/users HTTP/1.1\" 200 635 \"-\" \"Mozilla/5.0 (Testing Browser)\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:08:42 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated: test@example.com (ID: 4)","service":"acquisitions-api"}
+{"level":"info","message":"Getting user by ID: 4","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [18/Sep/2025:19:08:46 +0000] \"GET /api/users/4 HTTP/1.1\" 200 197 \"-\" \"Mozilla/5.0 (Testing Browser)\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [18/Sep/2025:19:08:51 +0000] \"POST /api/sign-in HTTP/1.1\" 404 151 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"ip":"::ffff:172.18.0.1","level":"warn","message":"Rate limit exceeded","path":"/api/users/4","service":"acquisitions-api","userAgent":"Mozilla/5.0 (Testing Browser)"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [18/Sep/2025:19:08:55 +0000] \"PUT /api/users/4 HTTP/1.1\" 403 53 \"-\" \"Mozilla/5.0 (Testing Browser)\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:09:12 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated: test@example.com (ID: 4)","service":"acquisitions-api"}
+{"level":"info","message":"Updating user ID: 4","service":"acquisitions-api","updatedBy":4,"updates":["name"]}
+{"level":"info","message":"::ffff:172.18.0.1 - - [18/Sep/2025:19:09:32 +0000] \"PUT /api/users/4 HTTP/1.1\" 200 203 \"-\" \"Mozilla/5.0 (Testing Browser)\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:09:42 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated: test@example.com (ID: 4)","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [18/Sep/2025:19:09:51 +0000] \"PUT /api/users/1 HTTP/1.1\" 403 78 \"-\" \"Mozilla/5.0 (Testing Browser)\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:10:12 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:10:42 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated successfully: test@example.com","service":"acquisitions-api"}
+{"level":"info","message":"User signed in successfully: test@example.com","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [18/Sep/2025:19:11:07 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 125 \"-\" \"curl/8.5.0\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:11:13 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [18/Sep/2025:19:11:15 +0000] \"POST /api/sign-in HTTP/1.1\" 404 151 \"-\" \"curl/8.5.0\"","service":"acquisitions-api"}
+{"level":"error","message":"Error authenticating user: Error: User with this email does not exist","service":"acquisitions-api"}
+{"level":"error","message":"Sign in error User with this email does not exist","service":"acquisitions-api","stack":"Error: User with this email does not exist\n    at authenticateUser (file:///app/src/services/auth.service.js:84:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async signin (file:///app/src/controllers/auth.controller.js:61:18)"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [18/Sep/2025:19:11:38 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 404 26 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:11:40 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::ffff:172.18.0.1","level":"warn","message":"Rate limit exceeded","path":"/api/auth/sign-in","service":"acquisitions-api","userAgent":"HTTPie"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [18/Sep/2025:19:11:47 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 403 53 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"ip":"::ffff:172.18.0.1","level":"warn","message":"Rate limit exceeded","path":"/api/sign-in","service":"acquisitions-api","userAgent":"curl/8.5.0"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [18/Sep/2025:19:12:03 +0000] \"POST /api/sign-in HTTP/1.1\" 403 53 \"-\" \"curl/8.5.0\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:12:10 +0000] \"GET /health HTTP/1.1\" 403 53 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"ip":"::ffff:172.18.0.1","level":"warn","message":"Rate limit exceeded","path":"/api/sign-in","service":"acquisitions-api","userAgent":"Mozilla/5.0 (Testing Browser)"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [18/Sep/2025:19:12:40 +0000] \"POST /api/sign-in HTTP/1.1\" 403 53 \"-\" \"Mozilla/5.0 (Testing Browser)\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:12:40 +0000] \"GET /health HTTP/1.1\" 403 53 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:13:11 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:13:41 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:14:11 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"User created with email: apitest@example.com","service":"acquisitions-api"}
+{"level":"info","message":"User registered successfully: apitest@example.com","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [18/Sep/2025:19:14:14 +0000] \"POST /api/sign-up HTTP/1.1\" 201 112 \"-\" \"Mozilla/5.0 (Testing Script)\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated successfully: apitest@example.com","service":"acquisitions-api"}
+{"level":"info","message":"User signed in successfully: apitest@example.com","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [18/Sep/2025:19:14:19 +0000] \"POST /api/sign-in HTTP/1.1\" 200 124 \"-\" \"Mozilla/5.0 (Testing Script)\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated: apitest@example.com (ID: 5)","service":"acquisitions-api"}
+{"level":"info","message":"Getting users ...","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [18/Sep/2025:19:14:25 +0000] \"GET /api/users HTTP/1.1\" 200 799 \"-\" \"Mozilla/5.0 (Testing Script)\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:14:41 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:15:11 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:15:42 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:16:12 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:16:42 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:17:13 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:17:43 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"User created with email: test3@xxx.com","service":"acquisitions-api"}
+{"level":"info","message":"User registered successfully: test3@xxx.com","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [18/Sep/2025:19:17:45 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 98 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"error","message":"Error authenticating user: Error: Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: test3@xxx.com,1","service":"acquisitions-api"}
+{"level":"error","message":"Sign in error Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: test3@xxx.com,1","service":"acquisitions-api","stack":"Error: Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: test3@xxx.com,1\n    at authenticateUser (file:///app/src/services/auth.service.js:84:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async signin (file:///app/src/controllers/auth.controller.js:61:18)"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [18/Sep/2025:19:18:00 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 500 669 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:18:13 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:18:44 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:19:14 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:19:44 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:20:18 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"error","message":"Error authenticating user: Error: Invalid password","service":"acquisitions-api"}
+{"level":"error","message":"Sign in error Invalid password","service":"acquisitions-api","stack":"Error: Invalid password\n    at authenticateUser (file:///app/src/services/auth.service.js:84:11)\n    at async signin (file:///app/src/controllers/auth.controller.js:61:18)"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [18/Sep/2025:19:20:38 +0000] \"POST /api/sign-in HTTP/1.1\" 401 31 \"-\" \"Mozilla/5.0 (Testing Fix)\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:20:49 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated successfully: test@example.com","service":"acquisitions-api"}
+{"level":"info","message":"User signed in successfully: test@example.com","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [18/Sep/2025:19:20:56 +0000] \"POST /api/sign-in HTTP/1.1\" 200 125 \"-\" \"Mozilla/5.0 (Testing Fix)\"","service":"acquisitions-api"}
+{"level":"info","message":"User created with email: fixed@test.com","service":"acquisitions-api"}
+{"level":"info","message":"User registered successfully: fixed@test.com","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [18/Sep/2025:19:21:14 +0000] \"POST /api/sign-up HTTP/1.1\" 201 109 \"-\" \"Mozilla/5.0 (Testing Fix)\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:21:19 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated successfully: fixed@test.com","service":"acquisitions-api"}
+{"level":"info","message":"User signed in successfully: fixed@test.com","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [18/Sep/2025:19:21:19 +0000] \"POST /api/sign-in HTTP/1.1\" 200 121 \"-\" \"Mozilla/5.0 (Testing Fix)\"","service":"acquisitions-api"}
+{"ip":"::ffff:172.18.0.1","level":"warn","message":"Rate limit exceeded","path":"/api/users","service":"acquisitions-api","userAgent":"Mozilla/5.0 (Testing Fix)"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [18/Sep/2025:19:21:24 +0000] \"GET /api/users HTTP/1.1\" 403 53 \"-\" \"Mozilla/5.0 (Testing Fix)\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"acquisitions-api","userAgent":"curl/8.14.1"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:21:49 +0000] \"GET /health HTTP/1.1\" 403 53 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:22:19 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated successfully: test3@xxx.com","service":"acquisitions-api"}
+{"level":"info","message":"User signed in successfully: test3@xxx.com","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [18/Sep/2025:19:22:36 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 110 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:22:49 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:23:20 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:23:50 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:24:20 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:24:51 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated: test3@xxx.com (ID: 6)","service":"acquisitions-api"}
+{"level":"info","message":"Getting user by ID: 2","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [18/Sep/2025:19:25:04 +0000] \"GET /api/users/2 HTTP/1.1\" 200 190 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:25:21 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated: test3@xxx.com (ID: 6)","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [18/Sep/2025:19:25:29 +0000] \"DELETE /api/users/2 HTTP/1.1\" 403 74 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:25:51 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:26:21 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:26:51 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:27:22 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:27:52 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:28:22 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"error","message":"Error creating user: Error: Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: admin@xxx.com,1","service":"acquisitions-api"}
+{"level":"error","message":"Sign up error Error: Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: admin@xxx.com,1","service":"acquisitions-api","stack":"Error: Error: Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: admin@xxx.com,1\n    at createUser (file:///app/src/services/auth.service.js:50:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async signup (file:///app/src/controllers/auth.controller.js:20:18)"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [18/Sep/2025:19:28:50 +0000] \"POST /api/sign-up HTTP/1.1\" 500 670 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:28:52 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:29:23 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:29:53 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:30:23 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:30:54 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:31:24 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"User created with email: admin@xxx.com","service":"acquisitions-api"}
+{"level":"info","message":"User registered successfully: admin@xxx.com","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [18/Sep/2025:19:31:43 +0000] \"POST /api/sign-up HTTP/1.1\" 201 104 \"-\" \"Mozilla/5.0 (Connection Fixed)\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:31:54 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated successfully: admin@xxx.com","service":"acquisitions-api"}
+{"level":"info","message":"User signed in successfully: admin@xxx.com","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [18/Sep/2025:19:31:56 +0000] \"POST /api/sign-in HTTP/1.1\" 200 116 \"-\" \"Mozilla/5.0 (Connection Fixed)\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:32:24 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:32:55 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated successfully: admin@xxx.com","service":"acquisitions-api"}
+{"level":"info","message":"User signed in successfully: admin@xxx.com","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [18/Sep/2025:19:33:20 +0000] \"POST /api/sign-in HTTP/1.1\" 200 116 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:33:25 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:33:55 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:34:26 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated: admin@xxx.com (ID: 4)","service":"acquisitions-api"}
+{"deletedBy":4,"level":"info","message":"Deleting user ID: 1","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [18/Sep/2025:19:34:53 +0000] \"DELETE /api/users/1 HTTP/1.1\" 200 107 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:34:56 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:35:26 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated: admin@xxx.com (ID: 4)","service":"acquisitions-api"}
+{"level":"info","message":"Getting users ...","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [18/Sep/2025:19:35:45 +0000] \"GET /api/users/ HTTP/1.1\" 200 493 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:35:56 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.14.1\"","service":"acquisitions-api"}

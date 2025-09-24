@@ -7,6 +7,8 @@ services:
       context: .
       dockerfile: Dockerfile
       target: production
+      platforms:
+        - linux/amd64
     container_name: acquisitions-app-prod
     ports:
       - '3000:3000'

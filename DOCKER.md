@@ -48,6 +48,7 @@ Production:
 Create the following files based on your environment:
 
 #### For Development (.env.development)
+
 ```env
 # Development Environment Configuration
 DATABASE_URL=postgres://neondb_owner:localpass@neon-local:5432/neondb
@@ -63,6 +64,7 @@ NEON_PROJECT_ID=your_neon_project_id_here
 ```
 
 #### For Production (.env.production)
+
 ```env
 # Production Environment Configuration
 DATABASE_URL=postgres://username:password@ep-example-123456.us-east-1.aws.neon.tech/neondb?sslmode=require
@@ -83,6 +85,7 @@ LOG_LEVEL=info
 ### Quick Start
 
 1. **Set up environment variables:**
+
    ```bash
    # Copy and edit the development environment file
    cp .env.example .env.development
@@ -90,10 +93,11 @@ LOG_LEVEL=info
    ```
 
 2. **Start the development environment:**
+
    ```bash
    # Using npm script
    npm run docker:dev
-   
+
    # Or using docker-compose directly
    docker-compose -f docker-compose.dev.yml up --build
    ```
@@ -147,6 +151,7 @@ docker-compose -f docker-compose.dev.yml exec app npm run db:studio
 ### Quick Start
 
 1. **Set up environment variables:**
+
    ```bash
    # Copy and edit the production environment file
    cp .env.example .env.production
@@ -154,19 +159,21 @@ docker-compose -f docker-compose.dev.yml exec app npm run db:studio
    ```
 
 2. **Start the production environment:**
+
    ```bash
    # Using npm script (runs in detached mode)
    npm run docker:prod
-   
+
    # Or using docker-compose directly
    docker-compose -f docker-compose.prod.yml up --build -d
    ```
 
 3. **Verify deployment:**
+
    ```bash
    # Check container status
    docker-compose -f docker-compose.prod.yml ps
-   
+
    # Check health
    curl http://localhost:3000/health
    ```
@@ -209,6 +216,7 @@ docker-compose -f docker-compose.prod.yml --profile with-proxy up -d
 ## Docker Commands Reference
 
 ### Build Commands
+
 ```bash
 # Build for development
 npm run docker:build:dev
@@ -224,6 +232,7 @@ docker build .
 ```
 
 ### Development Commands
+
 ```bash
 # Start development environment
 npm run docker:dev
@@ -235,6 +244,7 @@ docker-compose -f docker-compose.dev.yml down
 ```
 
 ### Production Commands
+
 ```bash
 # Start production environment
 npm run docker:prod
@@ -246,6 +256,7 @@ docker-compose -f docker-compose.prod.yml down
 ```
 
 ### Logging Commands
+
 ```bash
 # View all container logs
 npm run docker:logs
@@ -257,6 +268,7 @@ docker-compose logs -f app
 ```
 
 ### Utility Commands
+
 ```bash
 # Clean up Docker resources
 npm run docker:clean
@@ -272,6 +284,7 @@ docker-compose exec app npm run db:migrate
 ### Common Issues
 
 #### 1. Neon Local Connection Issues
+
 ```bash
 # Check if Neon Local container is healthy
 docker-compose -f docker-compose.dev.yml ps
@@ -284,6 +297,7 @@ docker-compose -f docker-compose.dev.yml exec app env | grep NEON
 ```
 
 #### 2. Database Connection Errors
+
 ```bash
 # Test database connectivity
 docker-compose -f docker-compose.dev.yml exec app npx drizzle-kit introspect
@@ -293,6 +307,7 @@ echo $DATABASE_URL
 ```
 
 #### 3. Container Health Check Failures
+
 ```bash
 # Check container health status
 docker inspect acquisitions-app-dev | jq '.[0].State.Health'
@@ -302,6 +317,7 @@ docker-compose exec app curl -f http://localhost:3000/health
 ```
 
 #### 4. Build Issues
+
 ```bash
 # Clean build cache
 docker builder prune -f
@@ -353,12 +369,14 @@ docker inspect acquisitions-app-dev | jq '.[0].HostConfig.Memory'
 ## Best Practices
 
 ### Development
+
 - Always use `.env.development` for local development
 - Keep Neon API credentials secure and never commit them
 - Use ephemeral branches for isolated feature development
 - Monitor container logs for development debugging
 
 ### Production
+
 - Use strong, unique secrets for `JWT_SECRET`
 - Set appropriate `LOG_LEVEL` (info or warn)
 - Monitor container health and resource usage
@@ -366,6 +384,7 @@ docker inspect acquisitions-app-dev | jq '.[0].HostConfig.Memory'
 - Use Docker secrets or external secret management in orchestration platforms
 
 ### Security
+
 - Never commit environment files with real credentials
 - Use non-root users in containers (already configured)
 - Keep Docker images updated with security patches

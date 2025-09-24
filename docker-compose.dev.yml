@@ -4,7 +4,7 @@ services:
     image: neondatabase/neon_local:latest
     container_name: acquisitions-neon-local
     ports:
-      - "5432:5432"
+      - '5432:5432'
     env_file:
       - .env.development
     restart: unless-stopped
@@ -14,7 +14,7 @@ services:
       - 8.8.8.8
       - 8.8.4.4
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -h localhost -p 5432 || exit 1"]
+      test: ['CMD-SHELL', 'pg_isready -h localhost -p 5432 || exit 1']
       interval: 10s
       timeout: 5s
       retries: 5
@@ -28,7 +28,7 @@ services:
       target: development
     container_name: acquisitions-app-dev
     ports:
-      - "3000:3000"
+      - '3000:3000'
     env_file:
       - .env.development
     volumes:
@@ -44,7 +44,7 @@ services:
     networks:
       - acquisitions-network
     healthcheck:
-      test: ["CMD-SHELL", "curl -f http://localhost:3000/health || exit 1"]
+      test: ['CMD-SHELL', 'curl -f http://localhost:3000/health || exit 1']
       interval: 30s
       timeout: 10s
       retries: 3

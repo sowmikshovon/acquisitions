@@ -16,7 +16,7 @@ export const authenticateToken = (req, res, next) => {
     // Verify token
     const decoded = jwttoken.verify(token);
     req.user = decoded;
-    
+
     logger.info(`User authenticated: ${decoded.email} (ID: ${decoded.id})`);
     next();
   } catch (error) {
@@ -25,7 +25,7 @@ export const authenticateToken = (req, res, next) => {
       ip: req.ip,
       userAgent: req.get('User-Agent'),
     });
-    
+
     return res.status(403).json({
       error: 'Invalid token',
       message: 'Authentication token is invalid or expired',
@@ -33,7 +33,7 @@ export const authenticateToken = (req, res, next) => {
   }
 };
 
-export const requireRole = (allowedRoles) => {
+export const requireRole = allowedRoles => {
   return (req, res, next) => {
     if (!req.user) {
       return res.status(401).json({
@@ -48,7 +48,7 @@ export const requireRole = (allowedRoles) => {
         userRole: req.user.role,
         requiredRoles: allowedRoles,
       });
-      
+
       return res.status(403).json({
         error: 'Access denied',
         message: 'Insufficient permissions',

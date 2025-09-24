@@ -9,12 +9,12 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
-    
+
     env:
       NODE_ENV: test
       NODE_OPTIONS: --experimental-vm-modules
       DATABASE_URL: ${{ secrets.DATABASE_URL || 'postgresql://test:test@localhost:5432/test_db' }}
-    
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4

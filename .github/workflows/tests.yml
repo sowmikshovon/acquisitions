@@ -1,0 +1,87 @@
+name: Tests
+
+on:
+  push:
+    branches: [main, staging]
+  pull_request:
+    branches: [main, staging]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    
+    env:
+      NODE_ENV: test
+      NODE_OPTIONS: --experimental-vm-modules
+      DATABASE_URL: ${{ secrets.DATABASE_URL || 'postgresql://test:test@localhost:5432/test_db' }}
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20.x'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run tests
+        id: test_run
+        run: |
+          if npm test -- --coverage --coverageReporters=text-lcov --coverageReporters=json-summary > test_output.log 2>&1; then
+            echo "tests_passed=true" >> $GITHUB_OUTPUT
+            echo "All tests passed! ✅" >> $GITHUB_STEP_SUMMARY
+            
+            # Add coverage summary to step summary if available
+            if [ -f coverage/coverage-summary.json ]; then
+              echo "## Test Coverage Summary" >> $GITHUB_STEP_SUMMARY
+              echo "\`\`\`json" >> $GITHUB_STEP_SUMMARY
+              cat coverage/coverage-summary.json >> $GITHUB_STEP_SUMMARY
+              echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+            fi
+          else
+            echo "tests_passed=false" >> $GITHUB_OUTPUT
+            echo "❌ Tests failed. Please check the logs below:" >> $GITHUB_STEP_SUMMARY
+            echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+            tail -n 50 test_output.log >> $GITHUB_STEP_SUMMARY || cat test_output.log >> $GITHUB_STEP_SUMMARY
+            echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+            
+            # Add annotations for test failures
+            echo "::error::Test suite failed. Check the test output for details."
+            
+            # Try to extract specific test failures and add them as annotations
+            if grep -q "FAIL\|FAILED\|Error:" test_output.log; then
+              echo "::group::Test Failures"
+              grep -n "FAIL\|FAILED\|Error:" test_output.log | head -10 | while IFS= read -r line; do
+                echo "::error::Test failure: $line"
+              done
+              echo "::endgroup::"
+            fi
+            
+            exit 1
+          fi
+
+      - name: Upload coverage reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: coverage-reports
+          path: |
+            coverage/
+            test_output.log
+          retention-days: 30
+
+      - name: Coverage status
+        if: always()
+        run: |
+          if [ "${{ steps.test_run.outputs.tests_passed }}" = "true" ]; then
+            echo "✅ All tests passed successfully"
+            if [ -f coverage/coverage-summary.json ]; then
+              echo "📊 Coverage report generated and uploaded"
+            fi
+          else
+            echo "❌ Some tests failed - check the artifacts for detailed logs"
+          fi
